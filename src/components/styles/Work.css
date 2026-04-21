@@ -213,7 +213,7 @@
   color: inherit;
 }
 
-.work-image a:hover .work-link {
+.work-image :hover .work-link {
   opacity: 1;
 }
 
