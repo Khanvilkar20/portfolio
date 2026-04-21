@@ -411,3 +411,17 @@
     font-size: 18px;
   }
 }
+.loading-text {
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.dots {
+  animation: dotsBlink 1.2s infinite;
+}
+
+@keyframes dotsBlink {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
